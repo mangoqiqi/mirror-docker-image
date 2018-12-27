@@ -2,7 +2,7 @@ batch:
   maxConcurrentDownloads: 5
   targetRegistry: registry.saas.hand-china.com/hxd
   images:
-    - "registry.cn-hangzhou.aliyuncs.com/choerodon-tools/gitlab-ce"
+    - "registry.cn-hangzhou.aliyuncs.com/choerodon-tools/gitlab-ce:11.4.7-ce.0"
   # - "mysql:5.7.24"
   # - "nginx:1.15.7"
 # single:
