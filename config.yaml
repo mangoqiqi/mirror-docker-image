@@ -2,7 +2,8 @@ batch:
   maxConcurrentDownloads: 5
   targetRegistry: registry.saas.hand-china.com/hxd
   images:
-    - "quay.io/setzero/gitlab:11.4.7-ce.0"
+    - "docker.io/bitnami/postgresql:10.6.0"
+    - "docker.io/bitnami/minideb:latest"
   # - "mysql:5.7.24"
   # - "nginx:1.15.7"
 # single:
