@@ -2,8 +2,7 @@ batch:
   maxConcurrentDownloads: 5
   targetRegistry: registry.saas.hand-china.com/hxd
   images:
-    - "docker.io/bitnami/postgresql:10.6.0"
-    - "docker.io/bitnami/minideb:latest"
+    - "filebrowser/filebrowser:latest"
   # - "mysql:5.7.24"
   # - "nginx:1.15.7"
 # single:
