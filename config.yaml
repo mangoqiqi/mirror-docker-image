@@ -2,10 +2,11 @@ batch:
   maxConcurrentDownloads: 5
   targetRegistry: registry.saas.hand-china.com/hxd
   images:
-    - "percona/percona-xtradb-cluster:latest"
-    - "haproxy:latest"
+  # - "percona/percona-xtradb-cluster:latest"
+  # - "haproxy:latest"
   # - "mysql:5.7.24"
   # - "nginx:1.15.7"
+    - "bolingcavalry/centos7-hbase126-standalone:0.0.1"
 # single:
 #   - image: "tomcat:7.0.92-jre8"
 #     targetRegistry: registry.saas.hand-china.com/tools
