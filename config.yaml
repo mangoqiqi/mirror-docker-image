@@ -6,7 +6,7 @@ batch:
   # - "haproxy:latest"
   # - "mysql:5.7.24"
   # - "nginx:1.15.7"
-    - "bolingcavalry/centos7-hbase126-standalone:0.0.1"
+    - "wordpress:php7.4-fpm-alpine"
 # single:
 #   - image: "tomcat:7.0.92-jre8"
 #     targetRegistry: registry.saas.hand-china.com/tools
